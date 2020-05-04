@@ -59,7 +59,6 @@ body{
 
 .game-grid{
     display:grid;
-    /* flex-wrap: wrap; */
     width:400px;
     height:300px;
     grid-template-columns: repeat(4,auto);/* 4 columns*/
