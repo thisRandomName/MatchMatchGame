@@ -69,7 +69,7 @@ createGameGrid();
 
 //NOTE:sort() with 0.5-Math.random() is usually used for sorting an array in random order.
 //Math.random() returns random values that belong to [0,1). So 0.5 acts as the mid point.
-// If we use a value greater than 1 or less 0 than it will always be either true or false..
+// If we use a value greater than 1 or less 0 then it will always be either true or false..
 // Therefore,0.5 is used. Remember that sort(compare-function) sorts two numeric values by checking
 // if the compare function's result is NEGATIVE,POSITIVE OR ZERO !!!!!
 function startGame(){
