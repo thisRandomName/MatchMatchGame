@@ -1,0 +1,78 @@
+@font-face{  /*allows us to use fonts we define(name,src) other than the "web-safe" fonts*/
+    font-family:"Creepy";
+    src:url("Fonts/Creepy.woff") format("woff")
+}
+
+body{
+    margin:0;
+    background:black;
+
+}
+
+.game-info{
+    color:rgb(89, 161, 89);
+    font-family:Creepy,serif; /*second font family in case Creepy doesn't appear*/
+    font-weight: lighter;
+    font-size: 50px;
+    text-align:center;
+   
+
+}
+
+.title{
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.score,.time{
+    font-size:25px;
+    padding-top: 20px;
+    margin-left:-250px; /*negative counting from text-align:center  */
+}
+
+
+
+.button {
+    border-radius: 35%;
+    border-color:rgb(89, 161, 89) ;
+    background-color: black;
+    color: orange;
+    border-width: 8px;
+    border-style: solid;
+    font-family: Creepy,serif;
+    font-size:30px;
+    font-weight: lighter;
+
+
+  }
+
+
+  #result{
+    font-family: Creepy,serif;
+    font-size:30px;
+    font-weight: lighter;
+    color:rgb(89, 161, 89);
+    background-color: orange;
+  }
+
+  #counter{
+    font-family: serif;
+    font-size:30px;
+    font-weight: lighter;
+    color:rgb(89, 161, 89);
+
+  }
+  
+
+.game-grid{
+    display:grid;
+    /* flex-wrap: wrap; */
+    width:400px;
+    height:300px;
+    grid-template-columns: repeat(4,auto);/* 4 columns*/
+    grid-gap:5px; 
+    justify-content: center; /*arranges all columns at the center*/
+    margin-left: 490px;
+    margin-top:25px;
+    
+
+}
